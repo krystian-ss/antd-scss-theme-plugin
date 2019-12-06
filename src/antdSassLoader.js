@@ -36,7 +36,7 @@ export const themeImporter = (themeScssPath, contents) => (url, previousResolve,
 /**
  * Modify sass-loader's options so that all antd variables are imported from the SCSS theme file.
  * @param {Object} options - Options for sass-loader.
- * @return {Object} Options modified to includ a custom importer that handles the SCSS theme file.
+ * @return {Object} Options modified to include a custom importer that handles the SCSS theme file.
  */
 export const overloadSassLoaderOptions = async (options) => {
   const newOptions = { ...options };
@@ -56,7 +56,7 @@ export const overloadSassLoaderOptions = async (options) => {
     importer = extraImporter;
   }
 
-  newOptions.importer = importer;
+  newOptions.sassOptions = { importer };
 
   return newOptions;
 };
