@@ -25,6 +25,8 @@
             alt="NPM Version"></a>
 </p>
 
+This is a fork of [intoli/antd-scss-theme-plugin](https://github.com/intoli/antd-scss-theme-plugin) to provide compatibility with [sass-loader](https://github.com/webpack-contrib/sass-loader) v8.0.0.
+
 `antd-scss-theme-plugin` is a [Webpack plugin](https://webpack.js.org/concepts/plugins/) which allows you to effectively use [Ant Design](https://ant.design/) in a project with SCSS styling.
 With it you can:
 
