@@ -55,13 +55,13 @@ With it you can:
 This plugin is published as [antd-scss-theme-plugin](https://www.npmjs.com/package/antd-scss-theme-plugin) on `npm`:
 
 ```bash
-npm install --save-dev @nodeworks/antd-scss-theme-plugin
+npm install --save-dev @igor-lemon/antd-scss-theme-plugin
 ```
 
 or
 
 ```bash
-yarn add -D @nodeworks/antd-scss-theme-plugin
+yarn add -D @igor-lemon/antd-scss-theme-plugin
 ```
 
 It extends the functionality of a `antd`, `less-loader` and `sass-loader` to accomplish its goals.

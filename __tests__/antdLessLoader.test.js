@@ -8,7 +8,7 @@ describe('overloadLessLoaderOptions', () => {
     const overloadedOptions = overloadLessLoaderOptions({
       scssThemePath: path.resolve(__dirname, 'data/theme.scss'),
     });
-    expect(overloadedOptions.modifyVars).toEqual({
+    expect(overloadedOptions.lessOptions.modifyVars).toEqual({
       '@primary-color': '#f00',
       '@info-color': '#200',
     });
@@ -21,7 +21,7 @@ describe('overloadLessLoaderOptions', () => {
         '@primary-color': '#fff',
       },
     });
-    expect(overloadedOptions.modifyVars).toEqual({
+    expect(overloadedOptions.lessOptions.modifyVars).toEqual({
       '@primary-color': '#fff',
       '@info-color': '#200',
     });
