@@ -37,7 +37,7 @@
   "dependencies": {
     "less": "^3.11.3",
     "loader-utils": "^1.1.0",
-    "scss-to-json": "^2.0.0"
+    "@crocsx/scss-to-json": "^3.0.0"
   },
   "peerDependencies": {
     "antd": "^4.4.1",
