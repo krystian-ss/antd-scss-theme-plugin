@@ -1,5 +1,5 @@
 {
-  "name": "@igor-lemon/antd-scss-theme-plugin",
+  "name": "@krystian-ss/antd-scss-theme-plugin",
   "description": "A Webpack plugin for customizing Ant Design with SCSS.",
   "version": "3.0.0",
   "main": "build/dist/lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/igor-lemon/antd-scss-theme-plugin.git"
+    "url": "git+https://github.com/krystian-ss/antd-scss-theme-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -25,12 +25,12 @@
     "sass-loader",
     "styles"
   ],
-  "author": "Intoli, LLC <contact@intoli.com>",
+  "author": "xxx <xxx@example.com>",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/igor-lemon/antd-scss-theme-plugin/issues"
+    "url": "https://github.com/krystian-ss/antd-scss-theme-plugin/issues"
   },
-  "homepage": "https://github.com/igor-lemon/antd-scss-theme-plugin",
+  "homepage": "https://github.com/krystian-ss/antd-scss-theme-plugin",
   "files": [
     "build/dist"
   ],
