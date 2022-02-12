@@ -35,9 +35,9 @@
     "build/dist"
   ],
   "dependencies": {
+    "@crocsx/scss-to-json": "^3.0.0",
     "less": "^3.11.3",
-    "loader-utils": "^1.1.0",
-    "@crocsx/scss-to-json": "^3.0.0"
+    "loader-utils": "^1.1.0"
   },
   "peerDependencies": {
     "antd": "^4.4.1",
@@ -63,9 +63,9 @@
     "jest": "^22.2.1",
     "less": "^3.11.3",
     "less-loader": "^6.2.0",
-    "node-sass": "^4.14.1",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.6.2",
+    "sass": "^1.49.7",
     "sass-loader": "^9.0.2",
     "webpack": "^3.10.0",
     "webpack-node-externals": "^2.3.0"
