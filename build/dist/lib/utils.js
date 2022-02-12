@@ -13,7 +13,7 @@ var _less = require('less');
 
 var _less2 = _interopRequireDefault(_less);
 
-var _scssToJson = require('scss-to-json');
+var _scssToJson = require('@crocsx/scss-to-json');
 
 var _scssToJson2 = _interopRequireDefault(_scssToJson);
 
